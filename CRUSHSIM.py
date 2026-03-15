@@ -113,11 +113,7 @@ OBJ_IMAGES = {}
 for name in OBJECTS:
     img = pygame.image.load(f"Images/{name}.png").convert_alpha()
     OBJ_IMAGES[name] = pygame.transform.scale(img, (48, 48))
-# loading material images same way as object images
-MAT_IMAGES = {}
-for mname in MATERIALS:
-    img = pygame.image.load(f"Images/{mname}.png").convert_alpha()
-    MAT_IMAGES[mname] = pygame.transform.scale(img, (40, 40))
+
 # MATERIALS
 # E  = Young's Modulus (Every materials stiffness)
 # nu = Poisson's Ratio (The leeway for an object's squishyness to being compressed lengthwise for cylinders)
@@ -131,7 +127,11 @@ MATERIALS = {
     "Carbon Fiber":  {"E": 150e9, "nu": 0.20, "K": 100e9, "sy": 600e6, "color": (60,60,70)},
     "Glass":         {"E": 70e9,  "nu": 0.23, "K": 50e9,  "sy": 50e6,  "color": (160,220,230)},
 }
-
+# loading material images same way as object images
+MAT_IMAGES = {}
+for mname in MATERIALS:
+    img = pygame.image.load(f"Images/{mname}.png").convert_alpha()
+    MAT_IMAGES[mname] = pygame.transform.scale(img, (40, 40))
 # PHYSICS CALCULATORS MUHAHAHAHAHA 
 # hollow sphere buckling — the thinner the wall relative to radius, the shallower it crushes
 def calc_hollow_sphere(obj, mat):
