@@ -3,7 +3,7 @@
 <h1>Problem and Inspiration</h1>
 <p>An estimated 20% of the ocean has been explored, meaning 80% of the ocean is unknown to science. The most problematic issues regarding exploration is depth, bringing freezing temperatures, no visibility, and insurmountable amounts of pressure[1]. In fact, with every 10 meters dived, pressure is increased by around 1 atmosphere, meaning, if you went to the bottom of the Mariana Trench, nearly 7 miles (11265.4 meters) deep, you feel the weight of around 30000 NVIDIA Shields on you! There is only 1 active manned submersible, Deepsea Challenger, that can reach a depth of 11000m, with the second best, Jiao Long, reaching 7000m[2]. To unlock the scientific unkowns of the ocean, we must master the force of pressure deep under the sea.</p>
 
-<h1>What is Crushr</h1>
+<h1>What is ?</h1>
 <p>Crushr is an interactive simulation of the force of pressure underwater of given materials, objects, and even organisms. We can first select the shape, object, or organism, then the material, if not an organism. The program then calculates or simmulates the depth at which it will crack under deep underwater pressure. With Crushr, we can test different materials and change our understanding of how effective different materials and shapes will be given harsh depths. With this simmulation, we can actively study the effects of different depths on different materials in order to find a cheaper, more efficient, or a better submersible overall.</p>
 
 <h1>How did we build it?</h1>
@@ -18,7 +18,7 @@
 <h1>What we've learned</h1>
 <p>During our research and project production we learned valuable life skills and information regarding oceanic issues. Communication, leadership, teamwork, coding, and technical skills are all required in the process of this 32 hour hackathon. After a while, Hamish finally figured out how to work pygame and install it, learning it while we went. Hunter gained valuable leadership skills as he facilitated group interaction and objectives. Overall, this experience has taught us both valuable lessons that we might not have learned elsewhere.</p>
 
-<h1>Future of Crushr?</h1>
+<h1>Future of Crushr</h1>
 <p>In the future, we hope to add more varaibles to account for different types of objects. We wish to improve the accuracy of our simmulation with real world experiments, learning physics, and having a better understanding of how different materials withstand compression. We could use the help of skilled professionals in coding and physics to create a better simmulation that's more accurate and provides helpful results so that we can explore the wildly unkown sea containing multitudes of undiscovered organisms. </p>
 
 <h1>Acknoledgements</h1>
