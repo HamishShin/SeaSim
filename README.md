@@ -25,5 +25,5 @@
 <P>Special thanks to all the staff, mentors, sponsors, and leadership that helped us brainstorm and eliminate issues during our work and allow this experience to happen.</P>
 
 <h1>Resources</h1>
-[1]https://oceana.org/blog/why-does-so-much-ocean-remain-unexplored-and-unprotected/
+[1]https://oceana.org/blog/why-does-so-much-ocean-remain-unexplored-and-unprotected/<br>
 [2]https://www.mtsmuv.org/active-manned-submersibles-by-depth
